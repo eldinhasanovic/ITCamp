@@ -1,0 +1,28 @@
+#kutija {
+  background-color: white;
+  width: 500px;
+  height: 200px;
+  border: solid gray 1px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 500px;
+}
+
+.naslov {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.paragraf {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  font-weight: normal;
+}
+.kruzic {
+  background-color: #cbb5f5;
+  border: transparent 1px solid;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+}
