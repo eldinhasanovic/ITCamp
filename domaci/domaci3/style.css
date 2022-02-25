@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.card {
+  width: 1000px;
+  height: 120px;
+  border-top: 1px grey solid;
+  margin: 20px auto;
+  display: block;
+  font-family: monospace;
+  padding: 10px;
+}
+.naslov {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.icon {
+  border: 1px solid white;
+  background-color: rgb(225, 192, 236);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
+.puls {
+  color: rgb(63, 10, 124);
+  margin: auto;
+  font-size: 59px;
+  margin-left: 23px;
+  margin-top: 27px;
+}
+.paragraf {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 13px;
+}
+.a {
+  display: inline-block;
+}
