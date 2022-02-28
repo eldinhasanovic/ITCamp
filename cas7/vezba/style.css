@@ -1,0 +1,27 @@
+div {
+  border: 1px solid black;
+  position: absolute;
+}
+.okvir {
+  width: 500px;
+  height: 150px;
+  left: 300px;
+}
+.logo {
+  height: 75px;
+  width: 220px;
+  left: 310px;
+  top: 15px;
+}
+.topmenu {
+  width: 150px;
+  height: 20px;
+  left: 640px;
+  top: 15px;
+}
+.menu {
+  width: 350px;
+  height: 25px;
+  left: 440px;
+  top: 120px;
+}
