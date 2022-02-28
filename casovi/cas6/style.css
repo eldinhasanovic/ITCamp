@@ -50,7 +50,6 @@
   border: 1px grey solid;
   border-radius: 10px;
   display: inline-block;
-  float: left;
 }
 .siva {
   color: grey;
@@ -89,13 +88,4 @@
 }
 .zadnjip {
   font-size: 10px;
-}
-.card2 {
-  float: left;
-}
-.card4 {
-  float: right;
-}
-.card3 {
-  float: right;
 }
