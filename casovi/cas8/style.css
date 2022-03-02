@@ -1,0 +1,58 @@
+.main {
+  height: 4000px;
+  background-color: beige;
+  padding-top: 400px;
+  font-family: monospace;
+}
+.card {
+  height: 100px;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  margin-left: 30px;
+  width: 1300px;
+}
+.slika {
+  width: 50px;
+  height: 50px;
+  color: black;
+  position: relative;
+  top: 19px;
+  left: 20px;
+}
+.linkovi {
+  font-size: 16px;
+  font-weight: 200;
+  position: absolute;
+  top: 27px;
+}
+.prvi {
+  right: 600px;
+}
+.drugi {
+  right: 470px;
+}
+.treci {
+  right: 340px;
+}
+.cetvrti {
+  right: 210px;
+}
+.dugme {
+  position: absolute;
+  background-color: grey;
+  right: 80px;
+  color: black;
+  width: 70px;
+  height: 30px;
+  top: 34px;
+}
+.dugmes {
+  top: -15px;
+  left: 9px;
+}
+.ime {
+  position: relative;
+  bottom: 40px;
+  left: 80px;
+}
