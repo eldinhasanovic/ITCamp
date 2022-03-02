@@ -1,0 +1,35 @@
+.main {
+  width: 820px;
+  height: 560px;
+  border-left: 3px rgb(214, 214, 214) solid;
+  margin-left: 250px;
+  padding: 30px;
+  font-family: monospace;
+}
+.prvi {
+  height: 150px;
+}
+.slika {
+  height: 90px;
+  width: 90px;
+}
+h2 {
+  position: relative;
+  top: -110px;
+  left: 140px;
+  font-size: 23px;
+}
+.paragraf {
+  position: relative;
+  color: grey;
+  top: -120px;
+  left: 140px;
+  font-size: 18px;
+}
+.slicica {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: -42px;
+  bottom: 30px;
+}
