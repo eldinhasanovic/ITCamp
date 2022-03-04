@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+}
+.container {
+  height: 480px;
+  width: 1160px;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+}
+.mr {
+  margin-right: 10px;
+}
+.card {
+  width: 32.4%;
+  height: 440px;
+  display: inline-block;
+  border: 1px solid grey;
+}
+.pozicija {
+  float: right;
+}
+img {
+  width: 100%;
+  height: 50%;
+}
+.tekst {
+  margin: 20px;
+}
+.category {
+  color: grey;
+  margin-bottom: 10px;
+}
+.naslov {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.paragraf {
+  margin-top: 0px;
+  font-size: 17px;
+}
+a {
+  font-size: 18px;
+  text-decoration: none;
+}
