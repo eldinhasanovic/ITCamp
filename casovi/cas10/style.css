@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+.main {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+}
+.dete {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+.main:hover div {
+  display: block;
+}
