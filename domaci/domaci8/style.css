@@ -1,0 +1,19 @@
+table {
+  background-color: white;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+td,
+th,
+tr {
+  width: 250px;
+  margin: auto;
+  height: 30px;
+}
+th {
+  background-color: rgb(48, 1, 48);
+  text-align: left;
+  color: white;
+}
