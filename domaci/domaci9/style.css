@@ -17,30 +17,106 @@
   position: absolute;
   left: 300px;
   top: 40px;
+  transform-origin: 50% 10%;
 }
 .prvi {
   background-color: red;
   z-index: 6;
-  transform: rotate(80deg);
+  animation: prvi 3s ease;
+  animation-iteration-count: infinite;
 }
 .drugi {
   background-color: orange;
   z-index: 5;
-  transform: rotate(50deg);
+  animation: drugi 3s ease;
+  animation-iteration-count: infinite;
 }
 .treci {
   background-color: yellow;
   z-index: 4;
-  transform: rotate(20deg);
+  animation: treci 3s ease;
+  animation-iteration-count: infinite;
 }
 .cetvrti {
   background-color: green;
   z-index: 3;
+  animation: cetvrti 3s ease;
+  animation-iteration-count: infinite;
 }
 .peti {
   background-color: purple;
   z-index: 2;
+  animation: peti 3s ease;
+  animation-iteration-count: infinite;
 }
 .sesti {
   background-color: violet;
+  animation: sesti 3s ease;
+  animation-iteration-count: infinite;
+}
+@keyframes prvi {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(80deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes drugi {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes treci {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes cetvrti {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes peti {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-50deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes sesti {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-80deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }

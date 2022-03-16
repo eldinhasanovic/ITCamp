@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  width: 900px;
+  height: 500px;
+  background-color: beige;
+  display: flex;
+  /* X OSA */
+  justify-content: center;
+  /* Y OSA */
+  align-items: center;
+}
+.dijete {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+.dijete2 {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+}
