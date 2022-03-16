@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0;
+  background-color: black;
+}
+.main {
+  width: 50%;
+  height: 400px;
+  margin: auto;
+  margin-top: 200px;
+  position: relative;
+  background-color: white;
+}
+.v {
+  width: 100px;
+  height: 300px;
+  position: absolute;
+  left: 300px;
+  top: 40px;
+}
+.prvi {
+  background-color: red;
+  z-index: 6;
+  transform: rotate(80deg);
+}
+.drugi {
+  background-color: orange;
+  z-index: 5;
+  transform: rotate(50deg);
+}
+.treci {
+  background-color: yellow;
+  z-index: 4;
+  transform: rotate(20deg);
+}
+.cetvrti {
+  background-color: green;
+  z-index: 3;
+}
+.peti {
+  background-color: purple;
+  z-index: 2;
+}
+.sesti {
+  background-color: violet;
+}
