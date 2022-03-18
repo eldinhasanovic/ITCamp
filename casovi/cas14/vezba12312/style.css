@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  height: 70vh;
+  width: 200px;
+}
+.head {
+  width: 100%;
+  height: 10vh;
+  background-color: yellow;
+  margin-bottom: 5vh;
+}
+.levi {
+  background-color: blue;
+}
+.desni {
+  background-color: red;
+}
+.centar {
+  width: 67%;
+  height: 70vh;
+  background-color: green;
+}
+.foot {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  margin-top: 5vh;
+}
+@media screen and (max-width: 600px) {
+  div {
+    flex-wrap: wrap;
+  }
+  nav {
+    width: 100%;
+    height: 20vh;
+  }
+  .centar {
+    width: 100%;
+  }
+}
+.sredina {
+  display: flex;
+  justify-content: space-between;
+}
