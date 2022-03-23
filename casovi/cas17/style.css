@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  background-color: beige;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+}
+.J {
+  background-color: orange;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.d {
+  background-color: blue;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.t {
+  background-color: red;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.c {
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
