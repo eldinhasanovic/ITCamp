@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0px;
+}
+.main {
+  width: 100%;
+  height: 1000px;
+}
+.container {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 600px;
+}
+.levi {
+  width: 45%;
+  height: 100%;
+}
+.desni {
+  float: right;
+  width: 45%;
+  height: 100%;
+  background-color: rgb(255, 36, 138);
+}
+.sas {
+  scrollbar-color: all blue;
+  list-style-type: sq;
+}
