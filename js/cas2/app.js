@@ -34,9 +34,29 @@
 // }
 // console.log(sum);
 
-brzv = Number(prompt("Unesite broj brojeva: "));
-str = " ";
-for (i = 0; i < brzv; i++) {
-  str += "*";
-  console.log(str);
-}
+// brzv = Number(prompt("Unesite broj brojeva: "));
+// str = " ";
+// for (i = 0; i < brzv; i++) {
+//   str += "*";
+//   console.log(str);
+// }
+
+// DOMACI:
+
+// x = Number(prompt("Unesite broj brojeva: "));
+// for (i = 1; i <= x; i++) {
+//   str = "";
+//   for (j = 1; j <= i; j++) {
+//     str += j;
+//   }
+//   console.log(str);
+// }
+
+// x = Number(prompt("Unesite broj brojeva: "));
+// for (i = 1; i <= x; i++) {
+//   str = "";
+//   for (j = 1; j <= i; j++) {
+//     str += i;
+//   }
+//   console.log(str);
+// }
