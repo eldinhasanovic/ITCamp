@@ -33,4 +33,15 @@
 // }
 // console.log("I am done");
 
-x = Number(prompt("Unesite broj brojeva"));
+// x = Number(prompt("Unesite broj brojeva"));
+// y = 0;
+
+// broj = 1;
+// while (y !== x) {
+//   if (broj % 2 === 1) {
+//     y++;
+//     console.log(broj);
+//   }
+
+//   broj++;
+// }
