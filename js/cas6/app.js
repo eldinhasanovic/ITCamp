@@ -75,3 +75,17 @@
 // } else {
 //   console.log("Broj nije u nizu");
 // }
+
+// niz = [0, 3, 5, 10, 21, 42, 22, 1];
+// c = false;
+// for (i = 0; i < niz.length; i++) {
+//   if (niz[i] == 65 || niz[i] == 77) {
+//     c = true;
+//     break;
+//   }
+// }
+// if (c) {
+//   console.log("Broj je u nizu");
+// } else {
+//   console.log("Broj nije u nizu");
+// }
