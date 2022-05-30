@@ -50,15 +50,15 @@
 // }
 // console.log(sum);
 
-niz = [3, 5, 2, 6, 12, 42, 243];
-niz1 = [];
-niz2 = [];
-for (i = 0; i < niz.length; i++) {
-  if (niz[i] % 2 == 0) {
-    niz1.push(niz[i]);
-  } else {
-    niz2.push(niz[i]);
-  }
-}
-console.log(niz1);
-console.log(niz2);
+// niz = [3, 5, 2, 6, 12, 42, 243];
+// niz1 = [];
+// niz2 = [];
+// for (i = 0; i < niz.length; i++) {
+//   if (niz[i] % 2 == 0) {
+//     niz1.push(niz[i]);
+//   } else {
+//     niz2.push(niz[i]);
+//   }
+// }
+// console.log(niz1);
+// console.log(niz2);
