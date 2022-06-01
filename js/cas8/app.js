@@ -77,17 +77,27 @@
 // }
 // centar(X);
 
-x = Number(prompt("Unesite broj redova: "));
-function SquareWithStars(x) {
-  for (i = 0; i < x; i++) {
-    for (j = 0; j < x; j++) {
-      if (i == 0 || i == x - 1 || j == 0 || j == x - 1) {
-        console.log("*");
-      } else {
-        console.log(" ");
-      }
-    }
-    console.log("\n");
-  }
-}
-SquareWithStars(x);
+// x = Number(prompt("Unesite broj redova: "));
+// function SquareWithStars(x) {
+//   for (i = 0; i < x; i++) {
+//     for (j = 0; j < x; j++) {
+//       if (i == 0 || i == x - 1 || j == 0 || j == x - 1) {
+//         console.log("*");
+//       } else {
+//         console.log(" ");
+//       }
+//     }
+//     console.log("\n");
+//   }
+// }
+// SquareWithStars(x);
+
+// a = Number(prompt("Unesite stranicu a: "));
+// b = Number(prompt("Unesite stranicu b: "));
+// c = Number(prompt("Unesite stranicu c: "));
+// function povrsinatrougla(a, b, c) {
+//   p = (a + b + c) / 2;
+//   S = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+//   console.log(S);
+// }
+// povrsinatrougla(a, b, c);
