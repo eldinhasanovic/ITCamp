@@ -69,13 +69,40 @@
 // b = String(prompt("Enter second number"));
 // CheckSameCase(a, b);
 
-function FindMultiplesOfNumber(a, b) {
-  arr = [];
-  for (let i = 1; i < b; i++) {
-    if (i % a == 0) {
-      arr.push(i);
+// function FindMultiplesOfNumber(a, b) {
+//   arr = [];
+//   for (let i = 1; i <= b; i++) {
+//     if (i % a == 0) {
+//       arr.push(i);
+//     }
+//   }
+//   if (arr.length == 0) {
+//     console.log("Nema takvih brojeva");
+//   } else {
+//     console.log(arr);
+//   }
+// }
+// a = Number(prompt("Enter first number"));
+// b = Number(prompt("Enter second number"));
+// FindMultiplesOfNumber(a, b);
+
+//
+
+function TwoSum(num, target) {
+  let arr = [];
+  for (let i = 0; i < num.length; i++) {
+    for (let j = i + 1; j < num.length; j++) {
+      if (num[i] + num[j] == target) {
+        arr.push(i);
+        arr.push(j);
+        break;
+      }
     }
   }
-  console.log(arr);
+  if (arr.length == 0) {
+    console.log("Nema takvih brojeva");
+  } else {
+    console.log(arr);
+  }
 }
-FindMultiplesOfNumber(3, 27);
+TwoSum([2, 7, 11, 15], 9);
