@@ -88,21 +88,30 @@
 
 //
 
-function TwoSum(num, target) {
-  let arr = [];
-  for (let i = 0; i < num.length; i++) {
-    for (let j = i + 1; j < num.length; j++) {
-      if (num[i] + num[j] == target) {
-        arr.push(i);
-        arr.push(j);
-        break;
-      }
-    }
-  }
-  if (arr.length == 0) {
-    console.log("Nema takvih brojeva");
-  } else {
-    console.log(arr);
-  }
-}
-TwoSum([2, 7, 11, 15], 9);
+// function TwoSum(num, target) {
+//   let arr = [];
+//   for (let i = 0; i < num.length; i++) {
+//     for (let j = i + 1; j < num.length; j++) {
+//       if (num[i] + num[j] == target) {
+//         arr.push(i);
+//         arr.push(j);
+//         break;
+//       }
+//     }
+//   }
+//   if (arr.length == 0) {
+//     console.log("Nema takvih brojeva");
+//   } else {
+//     console.log(arr);
+//   }
+// }
+// TwoSum([2, 7, 11, 15], 9);
+
+// function longestCommonPrefix(strs) {
+//     prefix = ""
+//     for (i = 0; i < strs.length; i++) {
+//         for (j = 0; j < strs[i].length; j++) {
+//             if(strs[i][j] === strs[i+1][j] === strs[i+2][j]) {
+//                 prefix += strs[i][j]
+//             }
+// }
