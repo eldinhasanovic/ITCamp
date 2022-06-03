@@ -69,4 +69,13 @@
 // b = String(prompt("Enter second number"));
 // CheckSameCase(a, b);
 
-function FindMultiplesOfNumber(a, b) {}
+function FindMultiplesOfNumber(a, b) {
+  arr = [];
+  for (let i = 1; i < b; i++) {
+    if (i % a == 0) {
+      arr.push(i);
+    }
+  }
+  console.log(arr);
+}
+FindMultiplesOfNumber(3, 27);
