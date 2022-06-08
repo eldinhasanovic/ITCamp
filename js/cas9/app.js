@@ -201,3 +201,54 @@
 //   console.log(arr);
 // }
 // powersof2(3);
+
+// arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// arr = data.filter((el) => {
+//     return el % 2 == 0;
+// }
+// );
+// console.log(arr);
+
+// data = [1, true, "", "daris", false, 23, null, undefined, 123, 0, 77];
+// arr = data.filter((el) => {
+//   return el;
+// });
+// console.log(arr);
+
+// arr = [3, 4, 6, 8];
+// data = arr.filter((el) => {
+//   return el >= 5;
+// });
+// console.log(data);
+
+// data = ["sksksk", "hahahah", "trsad", "sas", "prsat"];
+
+// arr = data.filter((el) => {
+//   return el.length <= 5;
+// });
+// console.log(arr);
+
+// data = [2, 5, 100];
+// arr = data.map((el) => {
+//   return el * 2;
+// });
+// console.log(arr);
+
+// arr = [2, 5, 100];
+// data = arr.map((el) => {
+//   return String(el);
+// });
+// console.log(data);
+
+// arr = ["john", "JACOB", "jinGleHe", "schmidt"];
+// data = arr.map((el) => {
+//   return el[0].toUpperCase() + el.slice(1).toLowerCase();
+// });
+// console.log(data);
+
+// data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// arr = data.every((el) => {
+//   return el >= 0;
+// });
+// console.log(arr);
