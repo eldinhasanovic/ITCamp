@@ -252,3 +252,33 @@
 //   return el >= 0;
 // });
 // console.log(arr);
+
+// a = {
+//     name: "Eldin",
+//     age: 15,
+// };
+// niz = ["Eldin", 21];
+// b = {
+//     0: "Eldin",
+//     1: 15,
+// }
+
+// library = [
+//   {
+//     author: "Bill Gates",
+//     title: "The Road Ahead",
+//     readingStatus: true,
+//   },
+//   {
+//     author: "Steve Jobs",
+//     title: "Walter Isaacson",
+//     readingStatus: true,
+//   },
+//   {
+//     author: "Suzanne Collins",
+//     title: "Mockingjay: The Final Book of The Hunger Games",
+//     readingStatus: false,
+//   },
+// ];
+// x = prompt("Unesite redni broj knjige (0 - 2): ");
+// console.log(library[x].author, " : ", library[x].readingStatus);
