@@ -282,3 +282,16 @@
 // ];
 // x = prompt("Unesite redni broj knjige (0 - 2): ");
 // console.log(library[x].author, " : ", library[x].readingStatus);
+
+// function difitizer(x) {
+//   let arr = [];
+//     str = x.toString();
+
+// function RepeatString(str, num) {
+//   let arr = [];
+//   for (let i = 0; i < num; i++) {
+//     arr.push(str);
+//   }
+//   return arr.join("");
+// }
+// console.log(RepeatString("*", 5));
