@@ -79,7 +79,7 @@
 // a = Number(prompt("Enter first number"));
 // b = Number(prompt("Enter second number"));
 // FindMultiplesOfNumber(a, b);
-//
+
 // function TwoSum(num, target) {
 //   let arr = [];
 //   for (let i = 0; i < num.length; i++) {
@@ -295,3 +295,40 @@
 //   return arr.join("");
 // }
 // console.log(RepeatString("*", 5));
+
+// function rps(p1, p2) {
+//   if (p1 === p2) {
+//     return "Draw!";
+//   } else {
+//     if (p1 === "rock") {
+//       if (p2 === "scissors") {
+//         return "Player 1 won!";
+//       } else {
+//         return "Player 2 won!";
+//       }
+//     } else if (p1 === "paper") {
+//       if (p2 === "rock") {
+//         return "Player 1 won!";
+//       } else {
+//         return "Player 2 won!";
+//       }
+//     } else if (p1 === "scissors") {
+//       if (p2 === "paper") {
+//         return "Player 1 won!";
+//       } else {
+//         return "Player 2 won!";
+//       }
+//     }
+//   }
+// }
+// rps("rock", "paper");
+
+// setTimeout(() => {
+//   console.log("hahahaaha");
+// }, 2000);
+
+// fetch("https://jsonplaceholder.typicode.com/users").then((res) => {
+//   console.log(res).catch((err) => {
+//     console.log(err);
+//   });
+// });
