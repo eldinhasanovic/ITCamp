@@ -332,3 +332,59 @@
 //     console.log(err);
 //   });
 // });
+
+// myPromise = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve("hahaha");
+//   }, 3000);
+// });
+// myPromise
+//   .then((a) => {
+//     console.log(a);
+//   })
+//   .catch(() => {
+//     console.log("error");
+//   })
+//   .finally(() => {
+//     console.log("finally");
+//   });
+
+// myPromise = new Promise((resolve, reject) => {
+//   num = Math.random() * 10;
+//   if (num > 5) {
+//     resolve(num);
+//   }
+//   reject(`Broj je manji od 5 (${num})`);
+// });
+// myPromise
+//   .then((a) => {
+//     console.log(a);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   })
+//   .finally(() => {
+//     console.log("finally");
+//   });
+
+// fetch("https://jsonplaceholder.typicode.com/users").then((res) => {
+//   res.json().then((data) => {
+//     console.log(data);
+//   });
+// });
+
+// console.log("1");
+
+// setTimeout(() => {
+//   console.log("2");
+// }, 0);
+// console.log("3");
+
+console.log("0");
+setTimeout(() => {
+  console.log(1);
+}, 5000);
+setTimeout(() => {
+  console.log(2);
+}, 1000);
+console.log(3);
