@@ -380,11 +380,11 @@
 // }, 0);
 // console.log("3");
 
-console.log("0");
-setTimeout(() => {
-  console.log(1);
-}, 5000);
-setTimeout(() => {
-  console.log(2);
-}, 1000);
-console.log(3);
+// console.log("0");
+// setTimeout(() => {
+//   console.log(1);
+// }, 5000);
+// setTimeout(() => {
+//   console.log(2);
+// }, 1000);
+// console.log(3);
