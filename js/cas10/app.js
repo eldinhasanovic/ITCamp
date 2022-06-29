@@ -45,3 +45,26 @@
 //     a.style.color = "green";
 //   }
 // }
+
+// arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// function mojaF(niz) {
+//   prosti = [];
+
+//   prosti = arr.filter((el) => {
+//     for (j = 2; j < el; j++) {
+//       if (el % j == 0) {
+//         return el + "nije prost";
+//       }
+//     }
+//     console.log(prosti);
+//   });
+// }
+
+// mojaF(arr);
+
+function mojaF() {
+  const a = document.getElementById("haha");
+  a.style.fontFamily = "Comic Sans MS";
+  a.style.fontSize = "12px";
+  a.style.color = "red";
+}
