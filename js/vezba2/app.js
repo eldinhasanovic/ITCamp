@@ -32,29 +32,30 @@
 //   //   }
 //   root.classList.toggle("mojaKlasa");
 // }
-x = document.getElementById("minutes");
-y = document.getElementById("seconds");
-function start() {
-  const Srk = setInterval(() => {
-    for (let i = 0; i < 60; i++) {
-      y.innerText = i;
-      if (i == 59) {
-        x.innerText = 0;
-        y.innerText = 0;
-      }
-    }
-  }, 1000);
-}
-function stop() {
-  const Srk = setInterval(() => {
-    for (let i = 0; i < 60; i++) {
-      y.innerText = i;
-      if (i == 59) {
-        x.innerText = 0;
-        y.innerText = 0;
-      }
-    }
-  }, 1000);
 
-  clearInterval(Srk);
-}
+// x = document.getElementById("minutes");
+// y = document.getElementById("seconds");
+// function start() {
+//   const Srk = setInterval(() => {
+//     for (let i = 0; i < 60; i++) {
+//       y.innerText = i;
+//       if (i == 59) {
+//         x.innerText = 0;
+//         y.innerText = 0;
+//       }
+//     }
+//   }, 1000);
+// }
+// function stop() {
+//   const Srk = setInterval(() => {
+//     for (let i = 0; i < 60; i++) {
+//       y.innerText = i;
+//       if (i == 59) {
+//         x.innerText = 0;
+//         y.innerText = 0;
+//       }
+//     }
+//   }, 1000);
+
+//   clearInterval(Srk);
+// }

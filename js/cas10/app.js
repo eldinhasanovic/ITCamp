@@ -62,9 +62,9 @@
 
 // mojaF(arr);
 
-function mojaF() {
-  const a = document.getElementById("haha");
-  a.style.fontFamily = "Comic Sans MS";
-  a.style.fontSize = "12px";
-  a.style.color = "red";
-}
+// function mojaF() {
+//   const a = document.getElementById("haha");
+//   a.style.fontFamily = "Comic Sans MS";
+//   a.style.fontSize = "12px";
+//   a.style.color = "red";
+// }
